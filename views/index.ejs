@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>All Blogs</title>
+</head>
+<body>
+    <h1>All Blogs</h1>
+    <a href="/blogs/new">Create New Blog</a>
+    <ul>
+        <% blogs.forEach(blog => { %>
+            <li>
+                <a href="/blogs/<%= blog._id %>"><%= blog.title %></a>
+                <a href="/blogs/<%= blog._id %>/edit">Edit</a>
+                <form action="/blogs/<%= blog._id %>?_method=DELETE" method="POST">
+                    <button type="submit">Delete</button>
+                </form>
+            </li>
+        <% }); %>
+    </ul>
+</body>
+</html>
