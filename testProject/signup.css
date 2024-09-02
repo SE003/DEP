@@ -1,0 +1,75 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Set height to viewport height */
+    background-color: rgba(64, 48, 158, 0.5); /* Background color with transparency */
+    background-image: url('https://scontent.fisb17-1.fna.fbcdn.net/v/t39.30808-6/304318557_467950848680087_1669612693253644552_n.jpg?stp=dst-jpg_s960x960&_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=LUhtLB3DDcsQ7kNvgHTGVGC&_nc_ht=scontent.fisb17-1.fna&oh=00_AYBaKPpUW4NT2wjtMvnxwNxPlgW_ei8gTBznOahFADzd7Q&oe=66669ACC'); /* URL of your image */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background */
+    position: relative; /* Set position to relative for overlay */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgba(68, 51, 151, 0.5); /* Background color with transparency */
+}
+
+header {
+    background-color: #f7eeee;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: "Times New Roman", Times, serif; /* Change font */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background: #007bff;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+.error {
+    color: red;
+    margin-top: 10px;
+}

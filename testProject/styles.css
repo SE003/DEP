@@ -1,0 +1,727 @@
+
+.header-top {
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center; 
+    margin-top: 0; 
+    padding: 10px 0; 
+  }
+  
+  .header-top .container {
+    max-width: 1200px;
+    margin: 0 auto; 
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header-top .logo img {
+    height: 50px; 
+    margin-top: auto;
+  }
+  
+  .header-top nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .header-top nav ul li {
+    display: inline;
+  }
+  
+  .header-top nav ul li:not(:last-child) {
+    margin-right: 20px;
+    padding-right: 20px; /* Adjust spacing between content items */
+    border-right: 1px solid #000000; /* Add line partition between content items */
+  }
+  
+  .header-top nav ul li a {
+    color: #000000;
+    text-decoration: none;
+    transition: color 0.4s ease; /* Smooth transition effect for text color */
+  }
+  
+  /* Smooth transition for text color change on hover for all links */
+  .header-top nav ul li a:hover {
+    color: rgb(238, 178, 15);
+  }
+
+ /* CSS for the second header */
+ .secondary-header {
+  background-color: rgb(15, 15, 67); /* Dark blue background */
+  color: #ffffff; /* White text color */
+  padding: 20px 0;
+  text-align: center; /* Center text within header */
+  margin-top: 0; /* Remove margin from the top */
+}
+
+.secondary-header .container {
+  max-width: 1200px;
+  margin: 0 auto; /* Center container horizontally */
+  padding: 0 80px;
+  display: flex;
+  justify-content: space-between; /* Center content horizontally */
+  align-items: center;
+}
+
+.secondary-header nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.secondary-header nav ul li {
+  position: relative;
+  margin: 0 20px; /* Adjust spacing between main menu items */
+}
+
+.secondary-header nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: block;
+  transition: color 0.9s ease; /* Smooth transition effect for text color */
+}
+
+/* Smooth transition for text color change on hover for all links */
+.secondary-header nav ul li a:hover {
+  color: rgb(238, 178, 15);
+}
+.secondary-header nav ul li ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  color: #000000;
+  background-color: rgb(243, 243, 247); /* Match dropdown background color */
+  min-width: 150px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  transition: all 0.6s ease-out; /* Smooth transition for dropdown appearance */
+}
+
+.secondary-header nav ul li:hover > ul {
+  display: block;
+}
+
+.secondary-header nav ul li ul li {
+  width: 100%;
+}
+
+.secondary-header nav ul li ul li a {
+  padding: 10px 20px; /* Adjust padding for dropdown items */
+  white-space: nowrap;
+  display: block;
+  color: black; /* Set dropdown text color to black */
+  text-align: left; /* Align dropdown text to the left */
+  transition: all 0.6s ease-out; /* Smooth transition for dropdown appearance */
+}
+
+.secondary-header nav ul li ul li a:hover {
+  background-color: rgba(238, 178, 15, 0.2); /* Slight background change on hover */
+  width: 80%;
+}
+/* Smooth transition for text color change on hover for all links */
+.secondary-header nav ul li a:hover {
+    color: rgb(238, 178, 15);
+}
+
+.secondary-header nav ul li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: rgb(15, 15, 67); /* Match dropdown background color */
+    min-width: 150px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.secondary-header nav ul li:hover > ul {
+    display: block;
+}
+
+.secondary-header nav ul li ul li {
+    width: 100%;
+}
+
+.secondary-header nav ul li ul li a {
+    padding: 10px;
+    white-space: nowrap;
+    display: block;
+    color: black; /* Set dropdown text color to black */
+    text-align: left; /* Align dropdown text to the left */
+}
+
+.secondary-header nav ul li ul li a:hover {
+    background-color: rgba(238, 178, 15, 0.2); /* Slight background change on hover */
+}
+      /* Smooth transition for text color change on hover for all links */
+      .secondary-header nav ul li a:hover {
+          color: rgb(238, 178, 15);
+      }
+
+      .secondary-header nav ul li ul {
+          display: none;
+          position: absolute;
+          top: 100%;
+          left: 0;
+          background-color: rgb(15, 15, 67); /* Match dropdown background color */
+          min-width: 150px;
+          box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+          z-index: 1000;
+      }
+
+      .secondary-header nav ul li:hover > ul {
+          display: block;
+      }
+
+      .secondary-header nav ul li ul li {
+          width: 100%;
+      }
+
+      .secondary-header nav ul li ul li a {
+          padding: 10px;
+          white-space: nowrap;
+          display: block;
+          color: black; /* Set dropdown text color to black */
+      }
+
+      .secondary-header nav ul li ul li a:hover {
+          background-color: rgba(238, 178, 15, 0.2); /* Slight background change on hover */
+      }
+
+      /* Smooth transition for text color change on hover for all links */
+      .secondary-header nav ul li a:hover {
+          color: rgb(238, 178, 15);
+      }
+
+      .secondary-header nav ul li ul {
+          display: none;
+          position: absolute;
+          top: 100%;
+          left: 0;
+          color: #000000;
+          background-color: rgb(243, 243, 247); /* Match dropdown background color */
+          min-width: 150px;
+          box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+          z-index: 1000;
+      }
+
+      .secondary-header nav ul li:hover > ul {
+          display: block;
+      }
+
+      .secondary-header nav ul li ul li {
+          width: 100%;
+      }
+
+      .secondary-header nav ul li ul li a {
+          padding: 10px;
+          white-space: nowrap;
+          display: block;
+      }
+
+      .secondary-header nav ul li ul li a:hover {
+          background-color: rgba(238, 178, 15, 0.2); /* Slight background change on hover */
+      }
+  
+  /* Styling for 6th Convocation Instructions link */
+  .header-top nav ul li:nth-child(5) a {
+    font-weight: bold;
+    background-color: #efbe36; /* Mustard yellow background */
+    padding: 10px 20px; /* Adjust padding to increase width */
+    transition: background-color 0.5s ease; /* Smooth transition effect */
+  }
+  
+  .header-top nav ul li:nth-child(5) a:hover {
+    background-color: #0b0b49; /* Dark blue background on hover */
+    color: white; /* Change text color on hover */
+  }
+  
+  /* CSS for the "All Events" link */
+  .all-events-link {
+    color: #b1ba12;
+    text-decoration: none;
+    transition: color 0.4s ease; /* Smooth transition effect for text color */
+  }
+  
+  .all-events-link:hover {
+    color: rgb(233, 229, 178); /* Change text color to yellow on hover */
+  }
+  
+  /* Additional CSS for the image overlay */
+  .image-container {
+    position: relative; /* Required for absolute positioning of overlay */
+    width: 100%;
+    height: 150px;
+    background-image: url('https://hitecuni.edu.pk/www/img/footer.jpg'); /* Replace 'your-image-url.jpg' with your actual image URL */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(2, 5, 30, 0.712); /* Dark transparent color (adjust the opacity as needed) */
+  }
+  
+  /* Additional CSS for the image text */
+  .image-text {
+    position: absolute;
+    top: 100;
+    bottom: 5px; /* Adjust the distance from the bottom */
+    left: 20px; /* Adjust the distance from the left */
+    padding: 10px;
+    margin-left: 110px;
+    color: white;
+    width: calc(100% - 40px); /* Adjust width as needed */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+  }
+  
+  .image-text h2 {
+    padding: 1px;
+    text-align: left; /* Align text to the left */
+    margin-top: 10px;
+  }
+  
+  .image-text h2:first-child {
+    font-size: 27px; /* Adjust the font size for the first h2 */
+  }
+  
+  .image-text h2:last-child {
+    font-size: 15px; /* Adjust the font size for the second h2 */
+  }
+  
+  .oath-ceremony {
+    font-family: 'Times New Roman', Times, serif, sans-serif; /* Choose your desired font */
+    font-size: 13px; /* Adjust the font size as needed */
+    margin-left: 140px;
+    padding-top: 5px;
+    font-style: bold;
+  }
+  /* Additional CSS for image details */
+.image-after-ceremony {
+    text-align: center; /* Center the image and text */
+    margin-top: 0; /* Adjust margin as needed */
+    padding: 0; /* Adjust padding as needed */
+  }
+  
+  .image-after-ceremony img {
+    max-width: 100%; /* Make sure the image doesn't exceed the container width */
+  }
+  
+  .image-details {
+    margin-top: 20px; /* Adjust margin as needed */
+    font-size: large;
+
+  }
+  
+  .image-details ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .image-details ul li {
+    margin-bottom: 10px; /* Adjust margin as needed */
+  }
+  
+  .image-details ul li i {
+    margin-right: 5px; /* Adjust margin as needed */
+  }
+  /* Additional CSS for paragraph container */
+.paragraph-container {
+    text-align:justify; /* Center the paragraph */
+    margin-top: 0px; /* Adjust margin as needed */
+    padding: 20px; /* Adjust padding as needed */
+    color: #6b6969;
+  }
+  
+  .paragraph-container p {
+    margin: 0 auto; /* Center the paragraph horizontally */
+    max-width: 1150px; /* Set maximum width for better readability */
+    margin-bottom: 20px
+  }
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    grid-auto-rows: auto; /* Automatically size rows based on content */
+    grid-gap: 10px; /* Default gap between grid items */
+    justify-content: center; /* Center the grid horizontally */
+    grid-column-gap: 20px; /* Adjust the gap between columns */
+  }
+  
+  .image {
+    width: 100%; /* Ensure images fill their grid cells */
+    max-width: 200px; /* Limit the maximum width of each image */
+    margin: 0 auto; /* Center the images horizontally */
+  }
+  
+  .image img {
+    width: 100%; /* Make images fill their parent div */
+    height: auto; /* Maintain aspect ratio */
+  }
+/* CSS for social media icons in the header */
+.social-icons-bar {
+  background-color: rgb(15, 15, 67);
+  color: rgb(237, 211, 46);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 170px; /* Adjusted for overall padding */
+}
+
+.social-icons-bar .social-icons {
+  display: flex;
+  align-items: center;
+}
+
+.social-icons-bar .icon-link {
+  color: rgb(237, 211, 46);
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.social-icons-bar .icon-separator {
+  border-left: 1px solid white;
+  height: 20px;
+  margin: 0 10px;
+}
+
+/* CSS for the image container and overlay */
+.stats-image-container {
+  position: relative; /* Required for absolute positioning of overlay */
+  width: 100%;
+  height: 300px; /* Adjust the height as needed */
+  background-image: url('https://hitecuni.edu.pk/www/img/footer.jpg'); /* Replace with your actual image URL */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.stats-image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(2, 5, 30, 0.563); /* Dark transparent color (adjust the opacity as needed) */
+}
+
+.stats-image-text {
+  position: relative;
+  text-align: center;
+  z-index: 1; /* Ensure text is above the overlay */
+  width: 100%;
+}
+
+/* CSS for the stats container */
+.stats-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; /* Adjust gap as needed */
+}
+
+/* CSS for individual stat blocks */
+.stat {
+  flex: 1 1 calc(25% - 40px); /* Adjust the percentage as needed */
+  max-width: 200px;
+  text-align: center;
+  margin: 10px;
+}
+
+/* CSS for stat numbers */
+.stat-number {
+  position: relative;
+  margin: 0;
+  font-size: 36px; /* Adjust font size as needed */
+  color: #f6f5f2; /* Text color */
+}
+
+.stat-number::after {
+  content: '';
+  position: absolute;
+  align-self: center;
+  left: 0;
+  bottom: -5px; /* Adjust this value to set the gap */
+  width: 100%;
+  height: 2px; /* Adjust thickness of the underline */
+  background-color: #ffcc00; /* Underline color */
+  z-index: -1;
+}
+
+
+/* CSS for stat descriptions */
+.stat-description {
+  margin: 5px 0 0;
+  font-size: 14px; /* Adjust font size as needed */
+}
+
+/* CSS for custom buttons */
+.social-icons-bar .button-group {
+  display: flex;
+ 
+}
+
+.social-icons-bar .custom-button {
+  background-color:  #e4b228;
+  color: rgb(15, 15, 67);
+  padding: 5px 15px;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 12px;
+  border-radius: 1px;
+  transition: background-color 0.3s ease;
+}
+
+.social-icons-bar .custom-button:hover {
+  background-color: #002147;
+  color:#FFFFFF;
+  border-color: #efbe36;
+}
+/*after stats testmonials*/
+.testimonials {
+  margin: 50px 0;
+  text-align: center;
+}
+
+.testimonials h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.testimonial-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.testimonial {
+  width: 45%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: left;
+}
+
+.testimonial img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 20px;
+  float: left;
+}
+
+.testimonial-content {
+  padding: 20px;
+}
+
+.testimonial h3 {
+  font-size: 1.5em;
+  margin: 0;
+}
+
+.testimonial p {
+  font-size: 0.9em;
+  line-height: 1.5;
+  color: #555;
+}
+
+.testimonial .stars{
+  color: gold;
+  margin: 10px 0;
+}
+
+/* CSS for footer */
+.footer-area-top {
+  padding: 50px 0 20px;
+  background-color: #002147;
+}
+
+.footer-area-bottom {
+  background-color: rgb(15, 15, 67);
+  padding: 20px 0 0;
+  text-transform: capitalize;
+  font-size: 14px;
+}
+
+.footer-area-top .footer-box {
+  margin-bottom: 30px;
+}
+
+.footer-area-top p {
+  color: #f5f5f5;
+}
+
+.footer-area-top h3 {
+  font-size: 20px;
+  margin-bottom: 30px;
+  color: #FFFFFF;
+}
+
+.footer-area-top .footer-about {
+  margin: 20px 0 35px;
+}
+
+.footer-area-top .footer-about p {
+  font-size: 16px;
+}
+
+/* Adjusted styling for Quick Links */
+.footer-area-top .featured-links {
+  margin-bottom: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-area-top .featured-links > li {
+  width: 50%; /* Display links in two columns */
+}
+
+.footer-area-top .featured-links > li ul {
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+.footer-area-top .featured-links > li ul li {
+  margin-bottom: 12px;
+  position: relative;
+  padding-left: 15px;
+  font-size: 16px;
+}
+
+.footer-area-top .featured-links > li ul li:before {
+  content: "\f105";
+  position: absolute;
+  left: 0;
+  font-family: FontAwesome;
+  color: #fdc800;
+  top: 0;
+}
+
+.footer-area-top .featured-links > li ul li a {
+  color: #f5f5f5;
+  transition: all 0.5s ease-out;
+}
+
+.footer-area-top .featured-links > li ul li a:hover {
+  color: #fdc800;
+  transition: all 0.5s ease-out;
+}
+
+.footer-area-top .corporate-address {
+  margin-bottom: 20px;
+}
+
+.footer-area-top .corporate-address li {
+  margin-bottom: 10px;
+  color: #f5f5f5;
+  position: relative;
+  padding-left: 30px;
+  font-size: 16px;
+}
+
+.footer-area-top .corporate-address li i {
+  color: #fdc800;
+  padding-right: 15px;
+  position: absolute;
+  left: 0;
+  top: 3px;
+  z-index: 1;
+  font-size: 14px;
+}
+
+.footer-area-top .corporate-address li a {
+  color: #f5f5f5;
+}
+
+.footer-area-top .corporate-address li:last-child {
+  margin-bottom: 0;
+}
+
+.footer-area-top .newsletter-area .stylish-input-group {
+  border: none;
+  padding: 0;
+}
+
+.footer-area-top .newsletter-area .stylish-input-group .form-control {
+  border: none;
+  box-shadow: 0 0 0;
+  border-radius: 0;
+  text-transform: lowercase;
+  color: #717a7f;
+  height: 42px;
+  font-size: 13px;
+  background-color: rgba(24, 31, 65, 0.878);
+}
+
+.footer-area-top .footer-social {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.footer-area-top .footer-social li {
+  margin-right: 10px; /* Adjust spacing between icons */
+}
+
+.footer-area-top .footer-social li a {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #2b5788;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease-out;
+  text-decoration: none; /* Remove underline */
+}
+
+.footer-area-top .footer-social li a i {
+  color: #b3b3b3;
+  font-size: 13px;
+  transition: all 0.3s ease-out;
+}
+
+.footer-area-top .footer-social li a:hover {
+  border: 1px solid #fdc800;
+  background: #fdc800;
+}
+
+.footer-area-top .footer-social li a:hover i {
+  color: rgb(26, 26, 67);
+}
+
+.footer-area-top .footer-social li:last-child {
+  margin-right: 0;
+}
+
+.footer-area-top .flickr-photos li {
+  display: inline-block;
+  width: 32%;
+  margin-bottom: 4px;
+}
+
+.footer-area-top .flickr-photos li img:hover {
+  opacity: 0.5;
+  transition: all 0.3s ease-out;
+}
+
+.footer-area-bottom p a:hover {
+  color: #fdc800;
+}

@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #333;
+}
+
+.school-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.school-info img {
+    width: 100px;
+}
+
+.title {
+    align-self: flex-end;
+}
+
+.title h2 {
+    margin: 0;
+    color: #007BFF;
+}
+
+.content {
+    margin-top: 20px;
+}
+
+h3 {
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 10px;
+    color: #007BFF;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+th, td {
+    text-align: left;
+}
+
+@media print {
+    body {
+        background-color: white;
+    }
+    .container {
+        box-shadow: none;
+    }
+}
